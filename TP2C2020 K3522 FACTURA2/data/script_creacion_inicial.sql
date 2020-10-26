@@ -8,7 +8,7 @@ BEGIN
 
 	PRINT('ELIMINANDO CONSTRAINTS');
 
-	IF EXISTS (  SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[GDD2020].UC_ROLXUSUARIO')  )
+	--IF EXISTS (  SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[GDD2020].UC_ROLXUSUARIO')  )
 
 	--Hay que eliminar CONTRAINTS y TABLAS
 
